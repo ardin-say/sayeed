@@ -17,7 +17,7 @@ require 'vendor/autoload.php';
 </div>
 
 <script>
-var conn = new WebSocket('ws://sayeedanwar.herokuapp.com:8080');
+var conn = new WebSocket('wss://sayeedanwar.herokuapp.com:8080');
 conn.onopen = function(e) {
     console.log("Connection established!");
 };
